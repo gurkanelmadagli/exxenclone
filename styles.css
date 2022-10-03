@@ -1,0 +1,191 @@
+body {
+    background-color: black;
+}
+.jumbotron {
+    display: flex;
+}
+
+.landing-logo {
+    margin-left: 50px;
+    width: 150px;
+    height: 70px;
+    margin-bottom: 50px;
+}
+.submit {
+    width: 268.39px;
+    height: 50;
+    background-color:#ffcb04;
+    padding: 6 1 6 1;
+    border: none;
+
+
+}
+.ticariuye {
+    background-color:black;
+    border: none;
+    color: #ffcb04;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 1000px;
+    position: absolute;
+    font-family: "Audiowide", sans-serif;
+  }
+  .uyeol {
+    background-color:#ffcb04;
+    border: 1px solid black;
+    height: 53px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 1305px;
+    position: absolute;
+    font-family: "Audiowide", sans-serif;
+  }
+  .bi-globe {
+    position: absolute;
+    margin-left: 1471px;
+    margin-top: 65px;
+
+  }
+.dropdown {
+    background-color: #ffcb04;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 744px;
+    margin-top: 3.5px;
+}
+.dropdown-menu {
+    font-size: 25px;
+    border: 2px solid black;
+}
+#name {
+    width: 320px;
+    height: 50px;
+    margin-left: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 19px;
+    font-weight: bold;
+    color: #090909;
+    padding: 0 19px;
+    border: 4px solid #ffcb04 !important;
+}
+#email {
+    width: 320px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 19px;
+    font-weight: bold;
+    color: #090909;
+    padding: 0 19px;
+    border: 4px solid #ffcb04 !important;
+}
+.uyeol2 {
+    background-color:#ffcb04;
+    border: 1px solid black;
+    height: 50px;
+    width: 400px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 30px;
+    position: absolute;
+    font-family: "Audiowide", sans-serif;
+    margin-top: 27px
+  }
+  .play-btn {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+div.sampiyonlarligi {
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    font-size: 15px;
+    margin-left: 430px;
+    width: 150px;
+    position: absolute;
+}
+div.avrupaligi{
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    font-size: 15px;
+    margin-left:743px;
+    position: absolute;
+}
+div.konferansligi {
+color: white;
+font-family: "Audiowide", sans-serif;
+font-size: 15px;
+margin-left:990px;
+position: absolute;
+}
+div.konusanlar {
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    font-size: 15px;
+    margin-left:1310px;
+    display: flex;
+    }
+ 
+div.tolgshow {
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    font-size: 15px;
+    margin-left:715px;
+    position: absolute;
+ }
+
+div.gibi {
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    font-size: 15px;
+    margin-left:1060px;
+    position: absolute;
+    }   
+    div.leyla {
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    font-size: 15px;
+    margin-left:1290px;
+    position: absolute;
+    }       
+
+.ortala {
+    text-align: center;
+    margin-top: 40px;
+    
+}
+img.buyut {
+    width: 320px;
+    height: 200px;
+}
+.yazii {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+
+}
+.ortala2 {
+    text-align: center;
+    margin-top: 40px;
+    width: 1080px;
+    margin-left: 420px;
+    
+}
+p.yardimmerkezi{
+    text-align: center;
+    color: #ffcb04;
+    font-family: "Audiowide", sans-serif;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 15px;
+    
+}

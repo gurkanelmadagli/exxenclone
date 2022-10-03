@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,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">
+    <title>Exxen</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+      </svg>
+</head>
+<body>
+    <div class="jumbotron text-center" style="background-color:#ffcb04; height: 120px; margin: 0;">
+        <div>
+            
+            <div>
+                <button class="ticariuye">EXXENSPOR Ticari Üye Ol</button>
+            </div>
+            <div>
+                <button class="uyeol">Üye Girişi</button>
+            </div>
+            <div>
+                <i class="bi bi-globe"></i>
+                <div class="dropdown">
+                    <button type="button" class="dropdown" data-bs-toggle="dropdown">
+                      TR
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Türkçe</a></li>
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                      <li><a class="dropdown-item" href="#">Spanish</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+        
+      </div>
+      <div class="jumbotron text-center" style="background-color:#111; height: 106px; margin: 0 auto; padding: 0px;" >
+        <input type="text" name="NameSurname" id="name" autocomplete="off" placeholder="Ad Soyadı" class="contact-form__input border-input">
+        <input type="email" name="Email" id="email" placeholder="E-Posta Adresi" class="contact-form__input border-input">
+        <div>
+            <button class="uyeol2">Üye Ol</button>
+        </div>
+    </div>
+    
+    </div>
+    <div class="pure-u-0 pure-u-sm-3-24 pure-u-md-4-24 pure-u-lg-4-24 ">
+    <div class="pure-g ln-content-container">
+        <a href="/tr/sign-up"><img class="landing-big-image-sport"
+             style="width:70%; height: auto; margin-left:260px; margin-top: 50px;" src="https://image.exxen.com/landing/14gun.jpg"> </a>
+</div>
+    </div>
+    <div style="margin: 0; padding: 0;" >
+    <img alt="Şampiyonlar Ligi" onerror="imgError(this);" itemprop="image" onload="this.style.opacity='1';" class="null-img" src="img\poster.webp" style="opacity: 1; width: 250px; height: 360px; margin-left: 380px; margin-top: 50px;" class="play-btn" src="img\button-detail.svg">
+    <img alt="Avrupa Ligi" onerror="imgError(this);" itemprop="image" onload="this.style.opacity='1';" class="null-img" src="img\poster2.webp" style="opacity: 1; width: 250px; height: 360px; margin-top: 50px; margin-left: 30px;">
+    <img alt="Avrupa Konferans Ligi" onerror="imgError(this);" itemprop="image" onload="this.style.opacity='1';" class="null-img" src="img\poster3.webp" style="opacity: 1; width: 250px; height: 360px; margin-top: 50px; margin-left: 30px;">
+    <img alt="Konuşanlar" onerror="imgError(this);" itemprop="image" onload="this.style.opacity='1';" class="null-img" src="img\poster4.webp" style="opacity: 1; width: 250px; height: 360px; margin-top: 50px; margin-left: 30px;">
+</div><br><br>
+<a href="#"><div class="sampiyonlarligi">Şampiyonlar Ligi</div></a>
+<a href="#"><div class="avrupaligi">Avrupa Ligi</div></a>
+<a href="#"><div class="konferansligi">Avrupa Konferans Ligi</div></a>
+<a href="#"><div class="konusanlar">Konuşanlar</div></a>
+<div style="margin: 0; padding: 0;" >
+    <img alt="Sadece Arkadaşız" onerror="imgError(this);" itemprop="image" onload="this.style.opacity='1';" class="null-img" src="img\poster5.webp" style="opacity: 1; width: 250px; height: 360px; margin-left: 380px; margin-top: 20px;">
+    <img alt="Sizi Dinliyorum" onerror="imgError(this);" itemprop="image" onload="this.style.opacity='1';" class="null-img" src="img\poster6.webp" style="opacity: 1; width: 250px; height: 360px; margin-top:20px; margin-left: 30px;">
+    <img alt="Gibi" onerror="imgError(this);" itemprop="image" onload="this.style.opacity='1';" class="null-img" src="img\poster7.webp" style="opacity: 1; width: 250px; height: 360px; margin-top: 20px; margin-left: 30px;">
+    <img alt="Leyla ile Mecnun" onerror="imgError(this);" itemprop="image" onload="this.style.opacity='1';" class="null-img" src="img\poster8.webp" style="opacity: 1; width: 250px; height: 360px; margin-top: 20px; margin-left: 30px;">
+</div><br><br>
+<a href="#"><div class="sampiyonlarligi">Sadece Arkadaşız</div></a>
+<a href="#"><div class="tolgshow">Tolgshow Filtresiz</div></a>
+<a href="#"><div class="gibi">Gibi</div></a>
+<a href="#"><div class="leyla">Leyla ile Mecnun</div></a><br><br>
+
+<div class="ortala"><img src="img\exxennn.webp" class="buyut" alt=""> </div>
+
+<div class="ortala2"><p class="yazii">Hemen üye ol, cepte, tablette, bilgisayarda, istediğin zaman, istediğin yerde exxen.com, Google Play, AppGallery, App Store, Apple TV ve Android TV'den izlemeye başla.</p></div>
+<img src="img\apple.png" alt="" style="margin-left:650px; margin-top: 50px;" width="200px">
+<img src="img\googleplay.png" alt="" style="margin-left:10px; margin-top: 50px;" width="200px" height="50px">
+<img src="img\huawei.png" alt="" style="margin-left:10px; margin-top: 50px;" width="200px" height="50px">
+<br><br><br>
+
+<a href="#"><img src="img\instagram.png" alt="" style="margin-left:890px; width: 20px; margin-top: 60px;"></a>
+<a href="#"><img src="img\face.png" alt="" style="margin-left:10px; width: 20px; margin-top: 60px;"></a>
+<a href="#"><img src="img\twitter.png" alt="" style="margin-left:10px; width: 20px; margin-top: 60px;"></a>
+<a href="#"><img src="img\youtube.png" alt="" style="margin-left:10px; width: 20px; margin-top: 60px;"></a>
+<a href="#"><img src="img\tiktok.png" alt="" style="margin-left:10px; width: 20px; margin-top: 60px;"></a>
+<br><br><br>
+<div class="jumbotron text-center" style="background-color:#111; height: 63px; margin-top: 100px auto; padding: 0px; width: 1000px; margin-left: 465px;">
+<p class="yardimmerkezi">Exxen Yardım Merkezi</p></div>
+</body>
+
+</html>
